@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { MapPin, Play, ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function TravelHero() {
   return (
@@ -41,18 +42,18 @@ export default function TravelHero() {
           </motion.h1>
 
           <nav className="hidden gap-8 text-sm font-medium text-white md:flex">
-            <a href="#" className="transition hover:text-cyan-300">
+            <Link to="/destinations" className="transition hover:text-cyan-300">
               Destinations
-            </a>
-            <a href="#" className="transition hover:text-cyan-300">
+            </Link>
+            <Link to="/packages" className="transition hover:text-cyan-300">
               Packages
-            </a>
-            <a href="#" className="transition hover:text-cyan-300">
+            </Link>
+            <Link to="/about" className="transition hover:text-cyan-300">
               About
-            </a>
-            <a href="#" className="transition hover:text-cyan-300">
+            </Link>
+            <Link to="/contact" className="transition hover:text-cyan-300">
               Contact
-            </a>
+            </Link>
           </nav>
 
           <button className="rounded-full border border-white/30 bg-white/10 px-5 py-2 text-sm font-semibold text-white backdrop-blur-md transition hover:bg-white hover:text-black">
@@ -86,8 +87,11 @@ export default function TravelHero() {
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-gray-200">
-              Experience breathtaking destinations, premium travel packages,
-              and unforgettable memories crafted for modern explorers.
+              Diddylinks Services Limited is a licensed travel and aviation company with
+the sole purpose of reaching the diverse needs of its clients.
+In this new era of constant change and management in multibusiness, at
+Diddylinks, we believe in providing the best of professional delivery of
+services.
             </p>
 
             {/* Buttons */}
