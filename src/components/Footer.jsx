@@ -1,9 +1,11 @@
 import React from "react";
 import {
-  Facebook,
-  Instagram,
-  Twitter,
-  Linkedin,
+  FaFacebookF,
+  FaInstagram,
+  FaTwitter,
+  FaLinkedinIn,
+} from "react-icons/fa";
+import {
   Send,
   MapPin,
   Phone,
@@ -68,10 +70,10 @@ export default function Footer() {
             {/* Socials */}
             <div className="mt-8 flex items-center gap-4">
               {[
-                Facebook,
-                Instagram,
-                Twitter,
-                Linkedin,
+                FaFacebookF,
+                FaInstagram,
+                FaTwitter,
+                FaLinkedinIn,
               ].map((Icon, index) => (
                 <a
                   key={index}
